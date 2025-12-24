@@ -1,0 +1,118 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@theme {
+  /* CYBER1 Brand Colors */
+  --color-cyber-blue: #1E3A8A;
+  --color-cyber-lightBlue: #3B82F6;
+  --color-cyber-navy: #0F172A;
+  --color-cyber-electric: #06B6D4;
+  
+  /* Maidar Secure Brand */
+  --color-maidar-teal: #0891B2;
+  --color-maidar-cyan: #06B6D4;
+  --color-maidar-purple: #7C3AED;
+  
+  /* Status colors */
+  --color-status-success: #10B981;
+  --color-status-warning: #F59E0B;
+  --color-status-error: #EF4444;
+  
+  /* Neutrals */
+  --color-neutral-black: #0F172A;
+  --color-neutral-darkGray: #1E293B;
+  --color-neutral-gray: #475569;
+  --color-neutral-lightGray: #94A3B8;
+  --color-neutral-white: #FFFFFF;
+  
+  /* Fonts */
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+  background-color: var(--color-neutral-black);
+  color: var(--color-neutral-white);
+  font-family: var(--font-sans);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+/* 28 Years Badge */
+.badge-28-years {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  z-index: 20;
+}
+
+.badge-28-years-content {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge-28-years-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom right, #eab308, #ca8a04, #a16207);
+  border-radius: 9999px;
+}
+
+.badge-28-years-border {
+  position: absolute;
+  inset: 0;
+  border: 4px solid #facc15;
+  border-radius: 9999px;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.badge-28-years-text {
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-neutral-darkGray);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-cyber-electric);
+  border-radius: 9999px;
+}
+
+/* Responsive */
+@media (max-width: 1536px) {
+  html { font-size: 14px; }
+}
+
+@media (max-width: 1280px) {
+  html { font-size: 13px; }
+}
+
+@media (max-width: 1024px) {
+  html { font-size: 12px; }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}

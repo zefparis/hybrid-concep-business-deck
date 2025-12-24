@@ -1,0 +1,15 @@
+export { CoverSlide } from './01-Cover';
+export { MissionSlide } from './02-Mission';
+export { ProblemSlide } from './03-Problem';
+export { CoreServicesSlide } from './04-CoreServices';
+export { InnovationSlide } from './05-Innovation';
+export { CognitiveAuthSlide } from './06-CognitiveAuth';
+export { ServicesGridSlide } from './07-ServicesGrid';
+export { BundlesSlide } from './08-Bundles';
+export { CaseStudiesSlide } from './09-CaseStudies';
+export { CompetitionSlide } from './10-Competition';
+export { PricingSlide } from './11-Pricing';
+export { ImplementationSlide } from './12-Implementation';
+export { CompanySlide } from './13-Company';
+export { NextStepsSlide } from './14-NextSteps';
+export { ContactSlide } from './15-Contact';
