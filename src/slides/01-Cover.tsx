@@ -53,7 +53,7 @@ export const CoverSlide: React.FC = () => {
           transition={{ duration: 0.6 }}
         >
           <img 
-            src="/images/logo_transparent.png" 
+            src="/images/WhatsApp Image 2025-12-24 at 16.22.42.jpeg" 
             alt="Hybrid Concepts" 
             className="h-24 md:h-32 w-auto object-contain"
           />
