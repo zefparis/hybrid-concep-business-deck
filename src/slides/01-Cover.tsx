@@ -55,7 +55,7 @@ export const CoverSlide: React.FC = () => {
           <img 
             src="/images/WhatsApp Image 2025-12-24 at 16.22.42.jpeg" 
             alt="Hybrid Concepts" 
-            className="h-24 md:h-32 w-auto object-contain"
+            className="h-16 md:h-32 w-auto object-contain"
           />
         </motion.div>
       </div>

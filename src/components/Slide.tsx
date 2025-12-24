@@ -54,11 +54,11 @@ export const Slide: React.FC<SlideProps> = ({
       )}
 
       {/* Hybrid Concepts Logo (top left) */}
-      <div className="absolute top-6 left-6 md:top-8 md:left-8 z-20">
+      <div className="absolute top-4 left-4 md:top-8 md:left-8 z-20">
         <img 
           src="/images/WhatsApp Image 2025-12-24 at 16.22.42.jpeg" 
           alt="Hybrid Concepts" 
-          className="h-20 md:h-24 w-auto object-contain"
+          className="h-12 md:h-24 w-auto object-contain"
         />
       </div>
 
