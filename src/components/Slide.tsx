@@ -58,7 +58,7 @@ export const Slide: React.FC<SlideProps> = ({
         <img 
           src="/images/logo_transparent.png" 
           alt="Hybrid Concepts" 
-          className="h-12 md:h-16 w-auto object-contain"
+          className="h-20 md:h-24 w-auto object-contain"
         />
       </div>
 

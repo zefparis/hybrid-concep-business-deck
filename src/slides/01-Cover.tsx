@@ -55,7 +55,7 @@ export const CoverSlide: React.FC = () => {
           <img 
             src="/images/logo_transparent.png" 
             alt="Hybrid Concepts" 
-            className="h-14 md:h-16 w-auto object-contain"
+            className="h-24 md:h-32 w-auto object-contain"
           />
         </motion.div>
       </div>
