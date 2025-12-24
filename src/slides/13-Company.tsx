@@ -16,7 +16,7 @@ export const CompanySlide: React.FC = () => {
   return (
     <Slide
       id="13"
-      title="About CYBER1 Solutions"
+      title="About Hybrid Concepts"
       subtitle="A trusted partner with deep roots in EMEA cybersecurity"
     >
       <div className="w-full max-w-6xl">

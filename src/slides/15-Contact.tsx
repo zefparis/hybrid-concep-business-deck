@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Globe, MapPin, Shield } from 'lucide-react';
+import { Mail, Globe, MapPin } from 'lucide-react';
 import { Slide } from '../components';
 import { contacts, offices, companyData } from '../lib/data';
 
@@ -19,13 +19,17 @@ export const ContactSlide: React.FC = () => {
           animate={{ opacity: 1, scale: 1 }}
           className="text-center mb-12"
         >
-          <div className="inline-flex items-center justify-center p-4 bg-white/10 backdrop-blur rounded-2xl mb-4">
-            <Shield className="w-16 h-16 text-white" />
+          <div className="inline-flex items-center justify-center mb-4">
+            <img 
+              src="/images/logo_transparent.png" 
+              alt="Hybrid Concepts" 
+              className="h-20 w-auto object-contain"
+            />
           </div>
-          <h2 className="text-5xl font-black text-white mb-2">
-            CYBER<span className="text-cyber-electric">1</span>
+          <h2 className="text-4xl md:text-5xl font-black text-white mb-2">
+            Hybrid Concepts
           </h2>
-          <p className="text-xl text-cyber-lightBlue font-bold">Solutions</p>
+          <p className="text-xl text-cyber-lightBlue font-bold">Cybersecurity Solutions</p>
           <p className="text-neutral-lightGray mt-2">{companyData.tagline}</p>
         </motion.div>
 
@@ -86,13 +90,13 @@ export const ContactSlide: React.FC = () => {
           className="text-center"
         >
           <a
-            href="https://cyber1.com"
+            href="https://hybridconcepts.com"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-white text-cyber-navy font-bold rounded-full hover:bg-neutral-lightGray transition-colors"
           >
             <Globe className="w-5 h-5" />
-            cyber1.com
+            hybridconcepts.com
           </a>
         </motion.div>
 
@@ -104,7 +108,7 @@ export const ContactSlide: React.FC = () => {
           className="mt-12 pt-6 border-t border-white/20 text-center"
         >
           <p className="text-sm text-neutral-lightGray">
-            © {new Date().getFullYear()} CYBER1 Solutions. All rights reserved.
+            © {new Date().getFullYear()} Hybrid Concepts. All rights reserved.
           </p>
           <p className="text-xs text-neutral-gray mt-2">
             NASDAQ Listed | ISO 27001:2022 Certified | {companyData.years} Years of Excellence

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 interface ComparisonRow {
   feature: string;
-  cyber1: boolean;
+  hybridConcepts: boolean;
   traditionalMFA: boolean;
   pureSOC: boolean;
   globalGiants: boolean;
@@ -15,7 +15,7 @@ interface ComparisonTableProps {
 }
 
 export const ComparisonTable: React.FC<ComparisonTableProps> = ({ data }) => {
-  const headers = ['Feature', 'CYBER1 Solutions', 'Traditional MFA', 'Pure SOC', 'Global Giants'];
+  const headers = ['Feature', 'Hybrid Concepts', 'Traditional MFA', 'Pure SOC', 'Global Giants'];
 
   return (
     <motion.div
@@ -43,7 +43,7 @@ export const ComparisonTable: React.FC<ComparisonTableProps> = ({ data }) => {
             <tr key={i} className="bg-neutral-darkGray hover:bg-neutral-gray transition-colors">
               <td className="px-6 py-4 text-sm font-medium text-white">{row.feature}</td>
               <td className="px-6 py-4 text-center">
-                {row.cyber1 ? (
+                {row.hybridConcepts ? (
                   <Check className="w-5 h-5 text-status-success mx-auto" />
                 ) : (
                   <X className="w-5 h-5 text-status-error mx-auto" />

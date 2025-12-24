@@ -1,6 +1,5 @@
 import React, { type ReactNode } from 'react';
 import { motion } from 'framer-motion';
-import { Award } from 'lucide-react';
 import { cn } from '../lib/utils';
 
 interface SlideProps {
@@ -45,25 +44,22 @@ export const Slide: React.FC<SlideProps> = ({
     >
       {/* 28 Years Badge */}
       {showBadge && (
-        <div className="badge-28-years">
-          <div className="badge-28-years-content">
-            <div className="badge-28-years-bg" />
-            <div className="badge-28-years-border" />
-            <div className="badge-28-years-text">
-              <Award className="w-8 h-8 mb-1" />
-              <div className="text-2xl font-black leading-none">28</div>
-              <div className="text-[0.5rem] font-semibold uppercase">Years</div>
-            </div>
-          </div>
+        <div className="absolute top-6 right-6 md:top-8 md:right-8 z-20">
+          <img 
+            src="/images/Image1.png" 
+            alt="28 Years of Excellence" 
+            className="w-20 h-20 md:w-24 md:h-24 object-contain"
+          />
         </div>
       )}
 
-      {/* CYBER1 Logo (top left) */}
-      <div className="absolute top-8 left-8 z-20">
-        <div className="flex items-center gap-3">
-          <div className="text-2xl font-black text-cyber-lightBlue">CYBER1</div>
-          <div className="text-sm text-neutral-lightGray">Solutions</div>
-        </div>
+      {/* Hybrid Concepts Logo (top left) */}
+      <div className="absolute top-6 left-6 md:top-8 md:left-8 z-20">
+        <img 
+          src="/images/logo_transparent.png" 
+          alt="Hybrid Concepts" 
+          className="h-12 md:h-16 w-auto object-contain"
+        />
       </div>
 
       {/* Grid pattern */}

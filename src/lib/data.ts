@@ -1,5 +1,5 @@
 export const companyData = {
-  name: 'CYBER1 Solutions',
+  name: 'Hybrid Concepts',
   socBrand: 'Maidar Secure',
   tagline: 'Trusted Cyber Security Partner Across EMEA',
   founded: 1997,
@@ -53,7 +53,7 @@ export const socTiers = [
     features: [
       'Continuous monitoring',
       'Advanced tech stack',
-      'Seasoned cybersecurity experts',
+      'Seasoned Hybrid Concepts security experts',
       'Peace of mind as business grows',
     ],
   },
@@ -321,49 +321,49 @@ export const bundles = [
 export const competitionMatrix = [
   {
     feature: '28 Years Experience',
-    cyber1: true,
+    hybridConcepts: true,
     traditionalMFA: false,
     pureSOC: true,
     globalGiants: true,
   },
   {
     feature: 'Cognitive Authentication',
-    cyber1: true,
+    hybridConcepts: true,
     traditionalMFA: false,
     pureSOC: false,
     globalGiants: false,
   },
   {
     feature: '24/7 SOC (Maidar Secure)',
-    cyber1: true,
+    hybridConcepts: true,
     traditionalMFA: false,
     pureSOC: true,
     globalGiants: true,
   },
   {
     feature: 'Government Access & Clearances',
-    cyber1: true,
+    hybridConcepts: true,
     traditionalMFA: false,
     pureSOC: false,
     globalGiants: false,
   },
   {
     feature: 'EMEA Local Presence',
-    cyber1: true,
+    hybridConcepts: true,
     traditionalMFA: false,
     pureSOC: true,
     globalGiants: false,
   },
   {
     feature: 'ISO 27001 Certified',
-    cyber1: true,
+    hybridConcepts: true,
     traditionalMFA: false,
     pureSOC: true,
     globalGiants: true,
   },
   {
     feature: 'Competitive Pricing',
-    cyber1: true,
+    hybridConcepts: true,
     traditionalMFA: true,
     pureSOC: true,
     globalGiants: false,
@@ -519,12 +519,12 @@ export const contacts = [
   {
     name: 'George Messum',
     role: 'VP Business Development',
-    email: 'george.messum@cyber1.com',
+    email: 'george.messum@hybridconcepts.com',
   },
   {
     name: 'Hilbert Long',
     role: 'General Manager',
-    email: 'hilbert@cyber1.com',
+    email: 'hilbert@hybridconcepts.com',
   },
 ];
 

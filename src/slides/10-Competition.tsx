@@ -8,7 +8,7 @@ export const CompetitionSlide: React.FC = () => {
     <Slide
       id="10"
       title="Competitive Advantage"
-      subtitle="Why CYBER1 Solutions stands apart in the market"
+      subtitle="Why Hybrid Concepts stands apart in the market"
     >
       <div className="w-full max-w-5xl">
         <ComparisonTable data={competitionMatrix} />
@@ -41,7 +41,7 @@ export const CompetitionSlide: React.FC = () => {
           transition={{ delay: 0.6 }}
           className="mt-6 text-center text-neutral-lightGray"
         >
-          <span className="text-white font-bold">CYBER1 Solutions</span> is the only provider combining enterprise SOC expertise with next-generation cognitive authentication
+          <span className="text-white font-bold">Hybrid Concepts</span> is the only provider combining enterprise SOC expertise with next-generation cognitive authentication
         </motion.p>
       </div>
     </Slide>

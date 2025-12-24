@@ -36,7 +36,7 @@ export const InnovationSlide: React.FC = () => {
     <Slide
       id="05"
       title="Innovation Edge"
-      subtitle="Proprietary technology that sets CYBER1 Solutions apart"
+      subtitle="Proprietary technology that sets Hybrid Concepts apart"
     >
       <div className="w-full max-w-6xl">
         {/* Innovation Cards */}
@@ -97,7 +97,7 @@ export const InnovationSlide: React.FC = () => {
           transition={{ delay: 0.7 }}
           className="mt-6 text-center text-lg text-neutral-lightGray"
         >
-          <span className="text-white font-bold">Only CYBER1 Solutions</span> combines 28 years of SOC expertise with next-generation cognitive authentication
+          <span className="text-white font-bold">Only Hybrid Concepts</span> combines 28 years of SOC expertise with next-generation cognitive authentication
         </motion.p>
       </div>
     </Slide>

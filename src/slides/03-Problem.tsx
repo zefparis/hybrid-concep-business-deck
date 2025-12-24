@@ -99,7 +99,7 @@ export const ProblemSlide: React.FC = () => {
           className="mt-8 text-center"
         >
           <p className="text-xl text-cyber-lightBlue font-semibold">
-            CYBER1 Solutions addresses all these challenges with Maidar Secure + Cognitive Authentication
+            Hybrid Concepts addresses all these challenges with Maidar Secure + Cognitive Authentication
           </p>
         </motion.div>
       </div>

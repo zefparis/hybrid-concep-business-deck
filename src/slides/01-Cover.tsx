@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Shield, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { companyData } from '../lib/data';
 
 export const CoverSlide: React.FC = () => {
@@ -31,21 +31,32 @@ export const CoverSlide: React.FC = () => {
       </div>
 
       {/* 28 Years Badge - Prominent */}
-      <div className="absolute top-12 right-12 z-30">
+      <div className="absolute top-8 right-8 z-30">
         <motion.div
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="relative w-32 h-32"
         >
-          <div className="absolute inset-0 bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-600 rounded-full" />
-          <div className="absolute inset-0 border-4 border-yellow-300 rounded-full animate-pulse" />
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-            <div className="text-sm font-semibold uppercase tracking-wider">Celebrating</div>
-            <div className="text-5xl font-black leading-none my-1">28</div>
-            <div className="text-xs font-semibold uppercase">Years of</div>
-            <div className="text-xs font-semibold uppercase">Excellence</div>
-          </div>
+          <img 
+            src="/images/Image1.png" 
+            alt="28 Years of Excellence" 
+            className="w-28 h-28 md:w-32 md:h-32 object-contain"
+          />
+        </motion.div>
+      </div>
+
+      {/* Logo top left */}
+      <div className="absolute top-8 left-8 z-30">
+        <motion.div
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+        >
+          <img 
+            src="/images/logo_transparent.png" 
+            alt="Hybrid Concepts" 
+            className="h-14 md:h-16 w-auto object-contain"
+          />
         </motion.div>
       </div>
 
@@ -56,24 +67,12 @@ export const CoverSlide: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          {/* Logo */}
-          <motion.div
-            initial={{ scale: 0.9 }}
-            animate={{ scale: 1 }}
-            transition={{ duration: 0.8 }}
-            className="mb-12 flex justify-center"
-          >
-            <div className="p-6 bg-gradient-to-br from-cyber-lightBlue to-maidar-teal rounded-2xl">
-              <Shield className="w-20 h-20 text-white" />
-            </div>
-          </motion.div>
-
           {/* Company name */}
           <div className="mb-8">
-            <h1 className="text-7xl md:text-8xl font-black text-white mb-4">
-              CYBER<span className="text-cyber-electric">1</span>
+            <h1 className="text-6xl md:text-7xl font-black text-white mb-4">
+              Hybrid Concepts
             </h1>
-            <p className="text-3xl text-cyber-lightBlue font-bold">Solutions</p>
+            <p className="text-2xl text-cyber-lightBlue font-bold">Cybersecurity Solutions</p>
           </div>
 
           {/* Tagline */}
@@ -85,7 +84,7 @@ export const CoverSlide: React.FC = () => {
           <div className="mb-12">
             <div className="inline-block px-6 py-3 bg-gradient-to-r from-maidar-teal to-maidar-cyan rounded-full">
               <p className="text-white font-bold text-lg">
-                Maidar Secure | CYBER1 Solutions
+                Maidar Secure | Hybrid Concepts
               </p>
             </div>
           </div>
